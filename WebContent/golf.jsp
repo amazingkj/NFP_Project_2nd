@@ -78,6 +78,62 @@
          imageIndex = 0;
       }
    }
+   function btn_s(){
+	  myImage.setAttribute("src", imageArray[imageIndex]);
+ 	  imageIndex++;
+ 	  if (imageIndex >= imageArray.length) {
+         imageIndex = 0;
+ 	  }
+   }
+   function btn_m(){
+	   myImage.setAttribute("src", imageArray[imageIndex]);
+	 	  imageIndex--;
+  if( imageIndex<0){
+		 imageIndex = 3;
+	  }
+   }
+   function btn_s(){
+	  myImage.setAttribute("src", imageArray[imageIndex]);
+ 	  imageIndex++;
+ 	  if (imageIndex >= imageArray.length) {
+         imageIndex = 0;
+ 	  }
+   }
+   function btn_m(){
+	   myImage.setAttribute("src", imageArray[imageIndex]);
+	 	  imageIndex--;
+  if( imageIndex<0){
+		 imageIndex = 3;
+	  }
+   }
+   function btn_s(){
+	  myImage.setAttribute("src", imageArray[imageIndex]);
+ 	  imageIndex++;
+ 	  if (imageIndex >= imageArray.length) {
+         imageIndex = 0;
+ 	  }
+   }
+   function btn_m(){
+	   myImage.setAttribute("src", imageArray[imageIndex]);
+	 	  imageIndex--;
+  if( imageIndex<0){
+		 imageIndex = 3;
+	  }
+   }
+   function btn_s(){
+	  myImage.setAttribute("src", imageArray[imageIndex]);
+ 	  imageIndex++;
+ 	  if (imageIndex >= imageArray.length) {
+         imageIndex = 0;
+ 	  }
+   }
+   function btn_m(){
+	   myImage.setAttribute("src", imageArray[imageIndex]);
+	 	  imageIndex--;
+  if( imageIndex<0){
+		 imageIndex = 3;
+	  }
+   }
    setInterval(changeImage, 3000);
 </script>
   

@@ -57,4 +57,4 @@
        </li>
      </ul>    
     </nav>
-    </header>
+    </header>    <div class="clear"></div>

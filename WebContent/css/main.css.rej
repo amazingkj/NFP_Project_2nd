@@ -1,0 +1,31 @@
+diff a/WebContent/css/main.css b/WebContent/css/main.css	(rejected hunks)
+@@ -142,28 +142,8 @@
+   -ms-transform: scale(1, 1);
+   transform: scale(1, 1)
+ }
+-.prev, .next {
+-  cursor: pointer;
+-  position: absolute;
+-  top: 50%;
+-  width: auto;
+-  margin-top: -22px;
+-  padding: 16px;
+-  display:none; 
+-  font-size: 18px;
+-  transition: 0.6s ease;
+-  border-radius: 0 3px 3px 0;
+-  user-select: none;
+-}
+ 
+-/* Position the "next button" to the right */
+-.next {
+-  right: 0;
+-  border-radius: 3px 0 0 3px;
+-}
+-#banner:hover .next,#banner:hover .prev{
+-   display: inline;
+-}
++
+ #login{
+ 	z-index:4;
+     top:0em;

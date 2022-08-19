@@ -1,0 +1,6 @@
+diff a/WebContent/include/header.jsp b/WebContent/include/header.jsp	(rejected hunks)
+@@ -59,3 +59,2 @@
+     </nav>
+     </header>
+\ No newline at end of file
+-    <div class="clear"></div>
