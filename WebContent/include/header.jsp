@@ -3,15 +3,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GolfKong</title>
+<title>GolForYou</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script> <!-- chart.js -->
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
-<link rel="stylesheet" type="text/css" href="../css/ranking.css" />
-<link rel="stylesheet" type="text/css" href="../css/indivrank.css" />
+<link rel="stylesheet" type="text/css" href="../css/login.css" />
 </head>
-
+<body>
+<div id="wrap">
   <header> 
-    <div id="login"><a href="#" class=btn>로그인</a>  <a href="#" class=btn>회원가입</a></div>
+    <div id="login"><a href="../member/login.jsp" class=btn>로그인</a>  <a href="#" class=btn>회원가입</a></div>
     <div class="clear"></div>  
     
      
@@ -58,6 +58,3 @@
      </ul>    
     </nav>
     </header>
-    <div class="clear"></div>
-    
-    

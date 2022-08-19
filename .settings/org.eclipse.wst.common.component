@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Golf">
+    <wb-module deploy-name="golFor">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Golf"/>
-        <property name="java-output-path" value="/Golf/build/classes"/>
+        <property name="context-root" value="golFor"/>
+        <property name="java-output-path" value="/golFor/build/classes"/>
     </wb-module>
 </project-modules>
